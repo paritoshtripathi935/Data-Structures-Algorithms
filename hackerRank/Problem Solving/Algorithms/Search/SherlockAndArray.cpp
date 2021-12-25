@@ -20,8 +20,7 @@ string balancedSums(vector<int>& arr) {
 // 2nd
 
 string balanceSums(vector<int>& arr){
-    int right = 0; for(auto i: arr) right += i;
-    int left = 0;
+    int left = 0, right = 0; for(auto i: arr) right += i;
     for(int i = 0; i < arr.size(); i++){
         if (left == right - arr[i])
             return "YES";
