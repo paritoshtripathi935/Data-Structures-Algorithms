@@ -16,3 +16,16 @@ string balancedSums(vector<int>& arr) {
 
     return "NO";
 }
+
+// 2nd
+
+string balanceSums(vector<int>& arr){
+    int right = 0; for(auto i: arr) right += i;
+    int left = 0;
+    for(int i = 0; i < arr.size(); i++){
+        if (left == right - arr[i])
+            return "YES";
+        right -= arr[i], left += arr[i];
+    }
+    return "NO";
+}
