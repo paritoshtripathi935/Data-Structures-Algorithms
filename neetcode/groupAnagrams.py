@@ -1,5 +1,5 @@
 
-leetcode_sol_link  = f'https://leetcode.com/problems/group-anagrams/submissions/1122760545'
+leetcode_sol_link  = 'https://leetcode.com/problems/group-anagrams/submissions/1122760545'
 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
