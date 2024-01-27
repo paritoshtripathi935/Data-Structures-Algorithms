@@ -41,7 +41,7 @@ class Stack:
     
     def pop(self, stack):
         if (self.isEmpty(stack)): 
-            return str(-maxsize -1) # return minus infinite 
+            return str(-maxsize -1)
         
         return stack.pop() 
   
@@ -51,7 +51,7 @@ class Stack:
   
     def peek(self, stack): 
         if (self.isEmpty(stack)): 
-            return str(-maxsize -1) # return minus infinite 
+            return str(-maxsize -1)
         return stack[len(stack) - 1] 
 
 
