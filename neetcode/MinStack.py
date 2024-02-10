@@ -34,7 +34,7 @@ class MinStack:
 
         return self.minimum_stack[-1]
 
-
+leetcode_link = 'https://leetcode.com/problems/min-stack/submissions/1171591469'
 
 # Your MinStack object will be instantiated and called as such:
 # obj = MinStack()
