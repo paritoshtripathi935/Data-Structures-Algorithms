@@ -21,7 +21,8 @@ class Solution:
                 lp += 1
             else:
                 return [lp + 1, rp + 1]
-        return 0
+
+        return [0]
 
 sol = Solution()
 print(sol.twoSum([2,7,11,15],9))
